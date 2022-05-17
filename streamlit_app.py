@@ -5,6 +5,6 @@ import pandas as pd
 import streamlit as st
 
 st.title("yasin kac senin")
-dogum=st.number_input("Dogum Tarihini Giriniz")
+dogum=st.number_input("Dogum Tarihini Giriniz",step=1)
 yas=2022-dogum
 st.subheader(yas)
